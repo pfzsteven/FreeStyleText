@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FreestyleEditTextView">
+        <attr name="fs_background_style" format="enum">
+            <enum name="none" value="0" />
+            <enum name="linear" value="1" />
+        </attr>
+        <attr name="fs_view_type" format="enum">
+            <enum name="text_view" value="0" />
+            <enum name="edit_text_view" value="1" />
+        </attr>
+        <attr name="fs_radius" format="dimension" />
+        <attr name="fs_text_size" format="dimension" />
+        <attr name="fs_text" format="reference|string" />
+        <attr name="fs_text_color" format="reference|color" />
+        <attr name="fs_text_background_color" format="reference|color" />
+        <attr name="fs_text_align" format="enum">
+            <enum name="align_left" value="0" />
+            <enum name="align_center" value="1" />
+            <enum name="align_right" value="2" />
+        </attr>
+        <attr name="fs_paddingStart" format="dimension" />
+        <attr name="fs_paddingTop" format="dimension" />
+        <attr name="fs_paddingEnd" format="dimension" />
+        <attr name="fs_paddingBottom" format="dimension" />
+    </declare-styleable>
+</resources>

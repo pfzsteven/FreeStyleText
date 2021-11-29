@@ -51,7 +51,7 @@
 
         </GridLayout>
 
-        <cn.nobody.library.view.FreestyleLayoutView
+        <cn.nobody.framework.view.FreestyleLayoutView
             android:id="@+id/free_style_layout_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -70,6 +70,6 @@
             app:fs_view_type="edit_text_view">
 
             <requestFocus />
-        </cn.nobody.library.view.FreestyleLayoutView>
+        </cn.nobody.framework.view.FreestyleLayoutView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

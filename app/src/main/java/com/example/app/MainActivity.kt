@@ -8,10 +8,10 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import cn.nobody.freestyletext.R
-import cn.nobody.library.entity.ShadowEntity
-import cn.nobody.library.entity.TextRuleEntity
-import cn.nobody.library.util.FreeLogUtils
-import cn.nobody.library.view.FreestyleLayoutView
+import cn.nobody.framework.entity.ShadowEntity
+import cn.nobody.framework.entity.TextRuleEntity
+import cn.nobody.framework.util.FreeLogUtils
+import cn.nobody.framework.view.FreestyleLayoutView
 
 
 class MainActivity : AppCompatActivity() {

@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "FreeStyleText"
 include ':app'
-include ':library'
+include ':framework'

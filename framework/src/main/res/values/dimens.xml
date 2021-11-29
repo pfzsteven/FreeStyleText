@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_fs_padding_top">1dp</dimen>
+    <dimen name="common_fs_padding_left">8dp</dimen>
+    <dimen name="common_fs_padding_right">8dp</dimen>
+    <dimen name="common_fs_padding_bottom">1dp</dimen>
+    <dimen name="common_fs_radius">6dp</dimen>
+    <dimen name="common_fs_text_size">24dp</dimen>
+</resources>

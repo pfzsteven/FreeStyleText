@@ -4,7 +4,7 @@ import android.graphics.Color
 import android.os.Parcel
 import android.os.Parcelable
 import android.view.View
-import cn.nobody.library.view.FreestyleLayoutView
+import cn.nobody.framework.view.FreestyleLayoutView
 
 /**
  * Created by zpf on 2020/12/9.
