@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color"
+    tools:context="com.example.app.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_rect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_to_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Editor" />
+
+            <Button
+                android:id="@+id/btn_scale_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="Scale Up" />
+
+            <Button
+                android:id="@+id/btn_scale_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Scale Down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_align_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="align left"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btn_align_middle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="align Center" />
+
+
+            <Button
+                android:id="@+id/btn_align_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="align Right" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_rect">
+
+        <cn.nobody.library.view.FreestyleLayoutView
+            android:id="@+id/free_style_layout_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fs_background_style="linear"
+            app:fs_paddingBottom="@dimen/common_fs_padding_bottom"
+            app:fs_paddingEnd="@dimen/common_fs_padding_right"
+            app:fs_paddingStart="@dimen/common_fs_padding_left"
+            app:fs_paddingTop="@dimen/common_fs_padding_top"
+            app:fs_radius="@dimen/common_fs_radius"
+            app:fs_text_align="align_center"
+            app:fs_text_color="#000000"
+            app:fs_text_size="@dimen/common_fs_text_size"
+            app:fs_view_type="text_view" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
